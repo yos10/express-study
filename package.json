@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "devstart": "nodemon -L ./bin/www",
-    "debug": "nodemon -L --inspect-brk=0.0.0.0:9229 ./bin/www"
+    "start:dev": "nodemon -L ./bin/www",
+    "start:debug": "nodemon -L --inspect-brk=0.0.0.0:9229 ./bin/www",
+    "debug": "nodemon -L --inspect-brk=0.0.0.0:9229 ./currency.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
