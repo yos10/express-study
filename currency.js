@@ -32,9 +32,13 @@ function printForeignValues(value, sourceCurrency) {
 
   for (const targetCurrency in rates) {
     if (targetCurrency !== sourceCurrency) {
-      const convertedValue = convertToCurrency(value, sourceCurrency, targetCurrency);
+      const convertedValue = convertToCurrency(
+        value,
+        sourceCurrency,
+        targetCurrency
+      );
       const displayValue = formatValueForDisplay(convertedValue);
-      console.info(`- ${displayValue} ${targetCurrency}`);
+      console.info(`- ${convertedValue} ${targetCurrency}`);
     }
   }
 }
