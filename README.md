@@ -9,6 +9,6 @@ https://www.youtube.com/watch?v=yfm35n-USr8&list=PLlrxD0HtieHje-_287YJKhY8tDeSIt
 
 1. `yarn debug`
 
-1. デバッグのプレイボタンをクリック(動画の [0:43](https://youtu.be/yfm35n-USr8?list=PLlrxD0HtieHje-_287YJKhY8tDeSItwtg&t=43) )した後に、デバッグツールバーの `|▶` 続行ボタンをクリック
+1. デバッグのプレイボタンをクリック（動画の [0:43](https://youtu.be/yfm35n-USr8?list=PLlrxD0HtieHje-_287YJKhY8tDeSItwtg&t=43)）した後に、デバッグツールバーの `|▶` 続行ボタンをクリック
 
-エラー後は、currency.js のファイルを保存(`Ctrl + s`)すると nodemon が動く
+エラー後は、currency.js のファイルを保存（`Ctrl + s`）すると nodemon により再実行
